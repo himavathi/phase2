@@ -1,0 +1,34 @@
+body{
+  background: #27E5D1;
+}
+header{
+  background: #E527A6;
+  font-weight: 400;
+  text-align: center;
+}
+img{
+  width: 20%;
+  height:15%;
+  float:right;
+}
+.child
+{
+  border: 2px solid brown;
+    width:20%;
+  text-align: center;
+  background-color:gray;
+  margin:1%;
+  padding:1%;
+  justify-content: space-around;
+}
+.child img{
+  width:200px;
+  height:200px;
+}
+.link
+{
+  /* text-decoration: none; */
+  /* background-color: gray; */
+  color:#fff;
+
+}

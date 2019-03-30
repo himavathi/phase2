@@ -1,0 +1,64 @@
+.left
+{
+  width:30%;
+  border: 2px solid red;
+  border-radius: 2%;
+  text-align: center;
+  background-color:#52F3E2 ;
+}
+img{
+  width:100%;
+}
+.right
+{
+  width:69%;
+  border:2px solid blue;
+  border-radius: 2%;
+  background-color: silver;
+  margin:1%;
+  text-align:left;
+  padding: 1%;
+}
+.parent
+{
+  display:flex;
+}
+table{
+  width:100%;
+}
+table, th,td
+{
+
+  border:1px solid gray;
+    border-collapse: collapse;
+  font-size: 12px;
+
+}
+@media screen and (max-width:766px)
+{
+  .parent
+  {
+  flex-wrap:wrap;
+}
+.left,right
+{
+  width:100%;
+}
+.right
+{
+  
+  width:100%;
+}
+
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+.parent
+{
+
+  background-color: blue;
+}
+.left
+{
+  width:50%;
+}
+}
